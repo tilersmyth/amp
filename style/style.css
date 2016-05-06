@@ -1,0 +1,82 @@
+
+body{
+	background-color: #eeeeee;
+	-webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.container-amp{
+	padding-top:40px;
+
+}
+
+
+.form-wrapper{
+	background-color: #ffffff;
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,.2);
+	box-shadow: 0 3px 3px rgba(0,0,0,.2);
+}
+
+.form-header{
+	padding: 10px 50px 20px 50px;
+	background-color: #f9fafa;
+	border-top: 4px solid #5fcf80; 
+	border-bottom: 1px solid #eeeeee;
+}
+
+.hire_me{
+	padding: 20px 50px !important;
+}
+
+.hire_me .error-text{
+	color: #ed5a5a;
+}
+
+
+.hire_me .btn-hire{
+	margin-top: 20px;
+}
+
+.hire_me ul{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+
+.thanks_container{
+	background-color: #99cc00
+}
+
+.glyphicon-ok-circle{
+	color: #5fcf80;
+}
+
+
+
+/*Attempt to make less bootstrappy*/
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+    background-color: #3ac162;
+}
+ 
+.btn-primary {
+    background: #5fcf80;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #3ac162;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #5fcf80;
+    box-shadow: none;
+}
